@@ -25,6 +25,26 @@ function Header() {
                 <Icon name="search" size="3xl" color="gray" />
                 <input type="text" placeholder="chercher" className="flex-grow px-5 text-base bg-transparent outline-none" />
             </div>
+
+            <Button
+                color="gray"
+                buttonType="outline"
+                rounded={true}
+                iconOnly={true}
+                ripple="dark"
+                className="ml-5 md:ml-20 h-20 w-20 border-0"
+            >
+                <Icon name="apps" size="3xl" color="gray" />
+            </Button>
+
+            <img 
+                loading="lazy"
+                className="cursor-pointer h-12 w-12 rounded-full ml-2"
+                src="https://africanexperts.neocities.org/assets/img/dummies/team1.jpg"
+                alt=""
+            />
+
+
         </div>
     )
 }
