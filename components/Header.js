@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="sticky top-0 flex items-center px-2 py-0 shadow-md bg-white">
             <Button
-                color="blue"
+                color="gray"
                 buttonType="outline"
                 rounded={true}
                 iconOnly={true}
@@ -21,7 +21,7 @@ function Header() {
             </h1>
 
 
-            <div className="mx-5 flex flex-grow items-center px-5 py-2 bg-gray-100 text-gray-600 rounded-lg">
+            <div className="mx-5 md:mx-20 flex flex-grow items-center px-5 py-2 bg-gray-100 text-gray-600 rounded-lg focus-within:text-gray-600 focus-within:shadow-md">
                 <Icon name="search" size="3xl" color="gray" />
                 <input type="text" placeholder="chercher" className="flex-grow px-5 text-base bg-transparent outline-none" />
             </div>
