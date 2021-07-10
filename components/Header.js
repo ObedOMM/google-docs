@@ -3,7 +3,7 @@ import Icon from "@material-tailwind/react/Icon";
 
 function Header() {
     return (
-        <div className="sticky top-0 flex items-center px-2 py-0 shadow-md bg-white">
+        <header className="sticky top-0 flex items-center px-2 py-0 shadow-md bg-white">
             <Button
                 color="gray"
                 buttonType="outline"
@@ -45,7 +45,7 @@ function Header() {
             />
 
 
-        </div>
+        </header>
     )
 }
 
