@@ -39,7 +39,7 @@ function Header() {
 
             <img 
                 loading="lazy"
-                className="cursor-pointer h-12 w-12 rounded-full ml-2"
+                className="hidden cursor-pointer h-12 w-12 rounded-full ml-2"
                 src="https://africanexperts.neocities.org/assets/img/dummies/team1.jpg"
                 alt=""
             />
