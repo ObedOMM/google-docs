@@ -30,7 +30,7 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="relative h-52 w-40 border-2 cursor-2 cursor-pointer hover:border-blue-700">
+            <div className="relative h-36 w-28 border-2 cursor-2 cursor-pointer hover:border-blue-700">
               <Image src="https://links.papareact.com/pju" layout="fill" />
             </div>
 
