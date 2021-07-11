@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Header from '../components/Header'
 import Image from "next/image";
 import Login from '../components/Login';
+import { useSession } from 'next-auth/client';
 
 export default function Home() {
   const [session] = useSession();

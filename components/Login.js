@@ -11,6 +11,7 @@ function Login() {
                 width="550"
                 objectifFit="contain"
             />
+            <h2>Hello</h2>
         </div>
     )
 }
